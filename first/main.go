@@ -3,5 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello")
+	fmt.Println()
+	hey()
+	bye()
+}
+
+func nope() {
+	const ok = true
 }
