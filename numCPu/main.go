@@ -1,10 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"runtime"
+	goversion "github.com/vorkos/learngo/numCPu/goVersion"
 )
 
 func main() {
-	fmt.Println(runtime.NumCPU())
+	goversion.Print()
 }
